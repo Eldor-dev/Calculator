@@ -1,0 +1,68 @@
+body {
+    font-family: digital;
+    font-weight: bold;
+    background-color: #00ffff;
+  }
+  
+  #root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #App {
+    background-color: black;
+    width: 290px;
+    height: 424px;
+    margin: 30px;
+    padding: 5px;
+  }
+  
+  #display {
+    width: 280px;
+    height: 60px;
+    box-sizint: border-box;
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 0 5px 5px 0;
+    overflow-wrap: break-word;
+  }
+  
+  #input {
+    height: 30px;
+    background-color: black;
+    text-align: right;
+    color: white;
+    font-size: 15px;
+    padding-right: 10px;
+    overflow-wrap: break-word;
+  }
+  
+  button {
+    position: relative;
+    color: white;
+    width: 70px;
+    height: 65px;
+    background-color: #515A5A;
+    outline: 1px solid black;
+  }
+  
+    button:hover {
+      color: black;
+    }
+  
+  #clear {
+     width: 140px;
+    background-color: #CB4335;
+  }
+  
+  #zero {
+    width: 140px;
+  }
+  
+  #equals {
+    height: 130px;
+    position: absolute;
+    background-color: #21618C;
+  }
